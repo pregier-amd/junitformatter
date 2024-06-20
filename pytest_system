@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="1" skipped="0" tests="2" time="0.168" timestamp="2024-06-17T17:03:01.135742" hostname="AUS-L-PREGIER"><testcase classname="test_first_try" name="test_one" time="0.001"><error message="failed on setup with &quot;file C:\qTest\junitformatter\junitformatter\test_first_try.py, line 10&#10;  def test_one(x):&#10;E       fixture 'x' not found&#10;&gt;       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory&#10;&gt;       use 'pytest --fixtures [testpath]' for help on them.&#10;&#10;C:\qTest\junitformatter\junitformatter\test_first_try.py:10&quot;">file C:\qTest\junitformatter\junitformatter\test_first_try.py, line 10
+  def test_one(x):
+E       fixture 'x' not found
+&gt;       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+&gt;       use 'pytest --fixtures [testpath]' for help on them.
+
+C:\qTest\junitformatter\junitformatter\test_first_try.py:10</error></testcase><testcase classname="test_first_try" name="test_answer" time="0.001"><failure message="assert None == 5&#10; +  where None = test_one(3)">def test_answer():
+&gt;      assert   test_one(3) == 5
+E      assert None == 5
+E       +  where None = test_one(3)
+
+test_first_try.py:14: AssertionError</failure></testcase></testsuite></testsuites>
