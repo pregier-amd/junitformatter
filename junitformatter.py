@@ -1,7 +1,7 @@
 from junit_xml import TestSuite,TestCase
 
 test_cases=[]
-tc = TestCase('gfx33', 'gfx_slt.class.gfx3', 34.0, 'I am stdout!', 'I am stderr!')
+tc = TestCase('gfx35', 'gfx_slt.class.gfx5', 34.0, 'I am stdout!', 'I am stderr!')
 
 #tc.log ='Generic Log'
 #tc.url = 'http://atlvdiagappw01.amd.com/snipe-it/public/'
